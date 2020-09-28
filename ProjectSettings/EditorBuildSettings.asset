@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuScene.unity
     guid: 761752aa469cd9d4f89e3cf2534815f1
   - enabled: 1
+    path: Assets/Scenes/MenuTest.unity
+    guid: 2298b843204f94d4983843ff1f7c6ce1
+  - enabled: 1
     path: Assets/Scenes/Level01.unity
     guid: f3452d6c9e38e3340a71317d8c765c8d
   - enabled: 0
@@ -18,9 +21,15 @@ EditorBuildSettings:
     path: Assets/Scenes/ScoreScene.unity
     guid: 8825478053c1edd4787cb4cc74e43747
   - enabled: 0
-    path: Assets/Scenes/PlanoPrueba.unity
-    guid: 15815ee637101cd4bb5d2069613a0671
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/Scenes/Level02.unity
     guid: 8583abd4daf501543af414880ec1b193
+  - enabled: 0
+    path: Assets/Scenes/ScoreMenuScene.unity
+    guid: 08ad3789eee902e45a3e973284edf775
+  - enabled: 1
+    path: Assets/Scenes/ScoreMenu.unity
+    guid: 0e9548af21e7a1341b0d76b493e729e8
   m_configObjects: {}

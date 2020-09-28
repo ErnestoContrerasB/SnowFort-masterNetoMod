@@ -7,9 +7,16 @@ public class MenuScript : MonoBehaviour
 {
     public void StartButton()
     {
-        SceneManager.LoadScene("Level01");
+        SceneManager.LoadScene(1);
     }
-
+    public void ScoreButton()
+    {
+        SceneManager.LoadScene(2);
+    }
+    public void MenuButton()
+    {
+        SceneManager.LoadScene(0);
+    }
     public void QuitGame()
     {
         Application.Quit();

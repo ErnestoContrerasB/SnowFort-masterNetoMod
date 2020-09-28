@@ -44,7 +44,7 @@ public class TimerCountdown : MonoBehaviour
 
         if(secondsLeft==0)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
     }
 }
