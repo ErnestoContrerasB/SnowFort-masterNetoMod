@@ -17,7 +17,7 @@ public class EnemyC : MonoBehaviour
         {
             //Rigidbody bulletClone = (Rigidbody)Instantiate(bullet, transform.position, transform.rotation);
             Rigidbody bulletClone = (Rigidbody)Instantiate(bullet, transform.position, transform.rotation);
-            bulletClone.position = transform.position + new Vector3(0, 1.5f, 0); 
+            //bulletClone.position = transform.position + new Vector3(0, 1.5f, 0); 
             //Ammo = bulletClone.GetComponent<GameObject>();
             bulletClone.velocity = transform.forward * bulletSpeed;
             //Ammo.GetComponent<Rigidbody>().AddForce(transform.forwardbulletSpeed10);
