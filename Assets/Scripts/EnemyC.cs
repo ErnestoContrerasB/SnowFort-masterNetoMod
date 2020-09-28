@@ -10,6 +10,7 @@ public class EnemyC : MonoBehaviour
     public Rigidbody bullet;
     private int cont = 0;
     private bool full = true;
+    private bool begin = false; 
     //private GameObject Ammo;
     IEnumerator FireEn()
     {
@@ -24,6 +25,7 @@ public class EnemyC : MonoBehaviour
             cont++;
         }
         full = false;
+        begin = true;
         yield return new WaitForSeconds(3);
         Updateate();
 
@@ -46,5 +48,9 @@ public class EnemyC : MonoBehaviour
     private void Start()
     {
         Updateate();
+    }
+    private void Update()
+    {
+        //Start();
     }
 }
