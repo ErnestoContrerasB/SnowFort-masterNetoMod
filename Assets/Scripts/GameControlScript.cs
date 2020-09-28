@@ -7,7 +7,7 @@ public class GameControlScript : MonoBehaviour
 /// Este Código esta amarrado al objeto vacio Game Control
 /// </summary>
     public GameObject Heart1, Heart2, Heart3, GameOver;//las tres imagenes de corazón y la de gameover
-    public  int health;
+    public  static int health;
 
     // Start is called before the first frame update
     void Start()//empezamos el juego con tres corazones y sin gameover
