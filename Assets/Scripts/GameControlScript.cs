@@ -8,6 +8,13 @@ public class GameControlScript : MonoBehaviour
 /// </summary>
     public GameObject Heart1, Heart2, Heart3, GameOver;//las tres imagenes de corazón y la de gameover
     public  int health;
+    public Collider player;
+    
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("daño juagdor");
+        health--;
+    }
 
     // Start is called before the first frame update
     void Start()//empezamos el juego con tres corazones y sin gameover
