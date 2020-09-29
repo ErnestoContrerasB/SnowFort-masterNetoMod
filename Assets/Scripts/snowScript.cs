@@ -19,7 +19,7 @@ public class snowScript : MonoBehaviour
     //private void FixedUpdate()
     IEnumerator SnowDrop()
     {
-        while (snowCount < 5)
+        while (snowCount < 15)
         {
             xPos = Random.Range(1, 3); //xPos obtiene un valor aleatorio entre ese rango
             zPos = Random.Range(1, 3); //yPos obtiene un valor aleatorio entre ese rango

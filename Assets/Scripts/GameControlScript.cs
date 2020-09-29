@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameControlScript : MonoBehaviour
 {/// <summary>
@@ -49,6 +50,7 @@ public class GameControlScript : MonoBehaviour
                 Heart2.gameObject.SetActive(false);
                 Heart3.gameObject.SetActive(false);
                 GameOver.gameObject.SetActive(true);//gameover
+                SceneManager.LoadScene(2);
                 break;
 
         }

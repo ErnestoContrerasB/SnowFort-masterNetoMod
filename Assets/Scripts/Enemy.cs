@@ -29,6 +29,7 @@ public class Enemy : MonoBehaviour
             {
                 case 1:
                     Debug.Log("caso 1");
+
                     Instantiate(enemy, new Vector3(5, 0, 0), Quaternion.Euler(new Vector3(0, -90, 0)));
                     Instantiate(enemy, new Vector3(5, 0, 5), Quaternion.Euler(new Vector3(0, 40, 0)));
                     break;

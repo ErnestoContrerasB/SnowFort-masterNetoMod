@@ -10,10 +10,11 @@ public class EnemyC : MonoBehaviour
     public Rigidbody bullet;
     private int cont = 0;
     private bool full = true;
-    private bool begin = false;
+    private bool begin;
     //private GameObject Ammo;
     IEnumerator FireEn()
     {
+        
         while (cont <= 2)
         {
             //Rigidbody bulletClone = (Rigidbody)Instantiate(bullet, transform.position, transform.rotation);
@@ -48,9 +49,9 @@ public class EnemyC : MonoBehaviour
     private void Start()
     {
         Updateate();
+        begin = false;
     }
-    private void Update()
-    {
-        //Start();
-    }
+
+    
+
 }
